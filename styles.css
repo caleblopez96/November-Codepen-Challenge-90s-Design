@@ -1,0 +1,168 @@
+/* In progress*/
+/* fix top blue bar.*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+    margin: auto;
+    background-color: #f0f0f0;
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;*/
+    max-width: 600px;
+}
+
+.wrapper {
+  background-color: #fff7e6;
+  border: 6px solid #213fff;
+  border-radius: 2%;
+}
+
+.headerWrapper {
+  border-radius: 2%;
+  background-color: #213fff;
+}
+
+.header {
+  color: #fff;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blueBar {
+  color: white;
+}
+
+.blueBar:visited{
+  color: white;
+}
+
+.headerSectionOne {
+  gap: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 0 .5em;
+}
+
+.headerSectionTwo > a {
+  border: 1px solid #fff;
+  padding-bottom: .15em; 
+}
+
+.file {
+  background-color: #fff7e6;
+  border-bottom: 3px solid #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5em;
+  padding-left: .25em;
+  padding-top: .25em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.outputWrapper, .inputWrapper {
+  border: 6px solid #fff7e6;
+}
+
+.output {
+  background-color: #fff;
+  padding-left: .5em;
+  box-shadow: inset 2px 2px 2px #323336; 
+  margin-bottom: .5em;
+}
+
+p {
+  line-height: 200%;
+  padding-top: .5em;
+}
+
+.userOne {
+  color: red;
+  font-weight: 800;
+}
+
+.userTwo {
+  color: blue;
+  font-weight: 800;
+}
+
+.textEditorWrapper {
+  padding: .3em;
+  background-color: #fff7e6;
+}
+
+.textEditor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.textEditor > div {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25em;
+  padding: 0 .5em;
+  border: 2px solid #b5b5b5;
+  box-shadow: 4px 4px 8px #fff; 
+}
+
+input {
+  min-height: 100px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: inset 2px 2px 2px #323336; 
+}
+
+.ctaWrapper {
+  padding: .3em;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cta > div {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25em;
+  padding: 0 .5em;
+  border: 2px solid #b5b5b5;
+  box-shadow: 4px 4px 8px #fff; 
+  background-color: #fff7e6;
+}
